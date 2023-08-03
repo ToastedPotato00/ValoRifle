@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body {
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: 'Alata', sans-serif;
+    background-color:#0F1722;
+    
+}
+.header {
+    height: 80px;
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.logo {
+    color: red;
+    font-size: 30px;
+}
+.main-nav a {
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    margin-left: 850px;
+    padding: 0px;
+    list-style-type: none;
+}
+.valo {
+    margin-left: 150px;
+    color: black;
+    background-color: red;
+    padding: 7px 30px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+main {
+    height: 2160px;
+
+}
+#def {
+    position: relative;
+    height: 50%;
+    background-image: url(Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.defi {
+    color: #FFF;
+    text-align: center;
+    font-family: Alata;
+    font-size: 32px;
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.info {
+    color: #FFF;
+    text-align: center;
+    font-family: Alata;
+    font-size: 32px;
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    bottom: -300px;
+    right: 30px;
+}
+#rifle-list {
+    height: 1080px;
+    background-image: url(Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bulldog-bg {
+    display: inline-block;
+    background-color: #940000;
+    width: 738px;
+    height: 278px;
+    position: relative;
+    left: 35px;
+    top: 50px;
+    border-radius: 50px;
+}
+.bulldog {
+    width: 672px;
+    height: 213px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 33px;
+    left: 33px;
+}
+
+.guardian {
+    width: 711px;
+    height: 157px;
+    flex-shrink: 0;
+    left: 13px;
+    top: 60px;
+    position: absolute;
+}
+.guardian-bg {
+    display: inline-block;
+    background-color: #940000;
+    width: 738px;
+    height: 278px;
+    position: relative;
+    left: 374px;
+    top: 50px;
+    border-radius: 50px;
+}
+.guardian-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+}
+.bulldog-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+}
+.phantom-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+}
+.vandal-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+}
+.phantom {
+    width: 717px;
+    height: 176px;
+    flex-shrink: 0; 
+    position: absolute;
+    top: 51px;
+    left: 11px;
+}
+.phantom-bg {
+    display: inline-block;
+    background-color: #940000;
+    width: 738px;
+    height: 278px;
+    position: relative;
+    left: 35px;
+    top: 350px;
+    border-radius: 50px;
+}
+.vandal {
+    width: 641px;
+    height: 208px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 48px;
+    left: 35px;
+}
+.vandal-bg {
+    display: inline-block;
+    background-color: #940000;
+    width: 738px;
+    height: 278px;
+    position: relative;
+    left: 374px;
+    top: 350px;
+    border-radius: 50px;
+}
+
+#footer {
+    width: 100%;
+    height: 492px;
+    z-index: -1;
+    position: absolute;
+}
+h1 {
+    font-size: 90px;
+    color: red;
+    position:relative;
+    margin-left: 50px;
+}
+.closing {
+    width: 380px;
+    font-size: 28px;
+    color: red;
+    position: relative;
+    margin-left: 260px;
+    top: 30px;
+}
+hr {
+    position: relative;
+    border-color: gray;
+    width: 1420px;
+    left: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: red;
+    position: relative;
+    margin-left: 1250px;
+    bottom: 150px;
+}
+h2 {
+    color: white;
+    position: absolute;
+    margin-top: -150px;
+    left: 10px;
+}
+.ellipse {
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
