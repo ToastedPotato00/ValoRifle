@@ -17,7 +17,16 @@ body {
 .logo {
     color: red;
     font-size: 30px;
-}
+.guardian-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
+}}
 .main-nav a {
     margin-right: 40px;
     font-weight: 700;
@@ -63,6 +72,16 @@ main {
     position: absolute;
     top: 60px;
     left: 8px;
+}
+.guardian-name {
+    position: absolute;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    top: -100px;
 }
 .dmg-bg {
     display: inline-block;
