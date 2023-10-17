@@ -7,12 +7,16 @@ body {
     
 }
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
     height: 80px;
     padding: 0 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    z-index: 1;
 }
 .logo {
     color: red;
@@ -33,12 +37,13 @@ body {
 }
 .valo {
     margin-left: 150px;
-    color: black;
-    background-color: red;
+    color: red;
+    background-color: black;
     padding: 7px 30px;
     font-size: 22px;
     text-decoration: none;
     border-radius: 30px;
+    border: double 5px red;
 }
 main {
     height: 2160px;
@@ -89,6 +94,7 @@ main {
     left: 35px;
     top: 50px;
     border-radius: 50px;
+    border: dashed 5px red;
 }
 .bulldog {
     width: 672px;
@@ -116,6 +122,7 @@ main {
     left: 374px;
     top: 50px;
     border-radius: 50px;
+    border: dashed 5px red;
 }
 .guardian-name {
     position: absolute;
@@ -156,6 +163,7 @@ main {
     left: 5%;
     right: 5%;
     top: -100px;
+    
 }
 .phantom {
     width: 717px;
@@ -174,6 +182,7 @@ main {
     left: 35px;
     top: 350px;
     border-radius: 50px;
+    border: dashed 5px red;
 }
 .vandal {
     width: 641px;
@@ -192,6 +201,7 @@ main {
     left: 374px;
     top: 350px;
     border-radius: 50px;
+    border: dashed 5px red;
 }
 
 #footer {
